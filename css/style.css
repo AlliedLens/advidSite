@@ -804,11 +804,11 @@ h6 {
 
 
 #banner-content .col-38 {
-    width: 38%; /* Left column (text section) */
+    width: 45%; /* Left column (text section) */
 }
 
 #banner-content .col-62 {
-    width: 62%; /* Right column (image section) */
+    width: 55%; /* Right column (image section) */
 }
 
 
