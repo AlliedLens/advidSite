@@ -142,22 +142,24 @@ body {
     color:#3C3D37;
 }
 
-/* Logo, if you are using Fonts as Logo and not image
+@font-face {
+    font-family: 'Josefin Sans'; 
+    src: url('../fonts/Josefin_Sans,Roboto/Josefin_Sans/static/JosefinSans-Regular.ttf') format('truetype'); 
+  }
 
-#logo h1 {
-    font-family:;
-    font-size:; 
-    font-weight:;
-    color:;
-}
+  #logo h1 {
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
 
-#logo h2 {
-    font-family:;
-    font-size:; 
-    font-weight:;
-    color:;
-}
-
+  #logo h2 {
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #665;
+  }
 */
 
 
