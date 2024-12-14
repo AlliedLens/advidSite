@@ -89,18 +89,19 @@ a:hover, #header.nav-solid nav a:hover {
     color:#fff;    
 }
 
-.section-heading h2:after {
-    /* background:#d2b356; */
+/* .section-heading h2:after {
+     background:#d2b356; 
     content:"";
     display:block;
     width:30px;
     height:5px;
     margin-top:30px;
-}
 
-.text-center .section-heading h2:after {
+    */
+
+/* .text-center .section-heading h2:after {
     margin:30px auto 25px auto;
-}
+} */
 
 /* Primary Icon Colors */
 
