@@ -302,9 +302,9 @@ section {
 /* --------- 2.1 Header --------- */
 
 #header {
-    height: 71px !important;
+    height: 78px !important;
     overflow: visible;
-    z-index: 9999;
+    /* z-index: 9999; */
     width: 100%;
     position: absolute !important;
 }
@@ -789,14 +789,17 @@ h6 {
 
 #banner-content.row {
     display: flex; /* Use flexbox for a horizontal layout */
-    align-items: center; /* Vertically center the content */
+    align-items: center;
     justify-content: space-between; /* Add space between the text and the image */
-    padding-top: 300px;
+    padding-top: 120px;
     padding-bottom: 200px;
 }
 
 #banner h1 {
     padding-top: 5%;
+    font-weight: bold;
+
+
 }
 
 #banner .section-heading:before {
@@ -2208,7 +2211,7 @@ blockquote {
     }
 
     #banner-content.row {
-        padding-top: 85px !important;
+        padding-top: 25px !important;
     }
 
     /*-----------------Sections-----------------*/
@@ -2278,7 +2281,7 @@ blockquote {
 
     /*-----------------Header Elements-----------------*/
     #header .row {
-        padding: 0 !important;
+        padding: 10 !important;
     }
 
     #header aside {
@@ -2300,7 +2303,7 @@ blockquote {
     }
 
     #banner-content.row {
-        padding-top: 85px !important;
+        padding-top: 25px !important;
     }
 
     /*Navigation*/
