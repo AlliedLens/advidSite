@@ -978,6 +978,15 @@ blockquote {
     align-items: center; /* Center the items vertically */
 }
 
+.missionStatements{
+    display: flex; /* Flex container for a single row */
+    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+
+}
+
 .testimonial.classic {
     flex: 1 1 22%; /* Allow items to grow, shrink, and set a base width of 22% */
     box-sizing: border-box; /* Prevent padding and borders from affecting width */
