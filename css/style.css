@@ -1341,6 +1341,39 @@ blockquote {
     }
 }
 
+.emailer form {
+    margin-top: 20px;
+}
+
+.emailer label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.emailer input, .emailer textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.emailer textarea {
+    resize: vertical;
+}
+
+.emailer button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.emailer button:hover {
+    background-color: #3e8e41;
+}
 /* --------- 6.5 Video ---------- */
 
 #video-box {
